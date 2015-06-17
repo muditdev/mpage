@@ -1,0 +1,351 @@
+@font-face {
+    font-family: 'agency';
+    src: url('../fonts/AgencyFB-Bold.eot');
+    src: url('../fonts/AgencyFB-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AgencyFB-Bold.woff') format('woff'),
+         url('../fonts/AgencyFB-Bold.ttf') format('truetype'),
+         url('../fonts/AgencyFB-Bold.svg') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+@font-face {
+    font-family: 'bd_cartoon';
+    src: url('../fonts/bd_cartoon_shout-webfont.eot');
+    src: url('../fonts/bd_cartoon_shout-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bd_cartoon_shout-webfont.woff') format('woff'),
+         url('../fonts/bd_cartoon_shout-webfont.ttf') format('truetype'),
+         url('../fonts/bd_cartoon_shout-webfont.svg') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+/*@font-face {
+    font-family: 'fontawesome';
+    src: url('../fonts/fontawesome.eot');
+    src: url('../fonts/fontawesome2.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fontawesome.woff') format('woff'),
+         url('../fonts/fontawesome.ttf') format('truetype'),
+         url('../fonts/fontawesome.svg') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+*/
+@font-face {
+    font-family: 'solomon';
+    src: url('../fonts/solomon_normal-webfont.eot');
+    src: url('../fonts/solomon_normal-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/solomon_normal-webfont.woff') format('woff'),
+         url('../fonts/solomon_normal-webfont.ttf') format('truetype'),
+         url('../fonts/solomon_normal-webfont.svg') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+     /*-----------------------------HEADER STARS------------------------------------*/
+
+            /*--------------------NAVIGATION STARS---------------------------*/
+p{
+    font-family: trebuchet ms, arial;
+    color: #a6a5a5;
+}
+hr{
+    border: 1px solid #cbcbcb;
+}
+
+
+.navbar-default{
+    background-color: #474747;
+    margin-bottom: 0px;
+    border:none;
+}
+
+.navbar{
+    border-radius: 0px;
+}
+
+.logo{
+    background-color: #d559a8;
+    padding: 14px 7px;
+    }
+
+.navbar-brand,
+.navbar-nav li a{
+    height: 80px;
+    line-height: 80px;
+    padding: 0 25px;
+    background-color: #474747;
+    margin-left:1px;
+    font-family: 'agency';
+    font-size: 1.3em;
+    border-right:1px solid #393939; 
+    box-shadow: 1px 0px 0px 0px rgba(255,255,255,.1);
+    -webkit-box-shadow: 1px 0px 0px 0px rgba(255,255,255,.1);
+    -moz-box-shadow: 1px 0px 0px 0px rgba(255,255,255,.1);
+}
+.navbar-brand{
+    padding: 0;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus
+{
+    background-color: #555555;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover
+ {
+    color: #fff;
+    background-color: #555555;
+}
+    /* Toggle  */
+    .navbar-default .navbar-toggle{
+        margin-top: 23px;
+        border-color: #616161;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        border-color:#4C4747;
+    }
+
+/* SOCIAL ICONS  */
+ul .twitter a{
+    width: 80px;
+    height:80px;
+    background: #20c0fd url("../img/twitter.png") no-repeat center;
+    box-shadow: none;
+    border: none;
+   }
+
+ul .facebook a{
+    width: 80px;
+    height:80px;
+    background:#506394 url("../img/facebook.png") no-repeat center;
+    box-shadow: none;
+    border: none;
+}
+
+ul .twitter a:hover,ul .twitter a:focus{
+    background: #20c0fd url("../img/twitter.png") no-repeat center!important;
+    opacity: 0.8;
+}
+
+ul .facebook a:hover, ul .facebook a:focus{
+    background:#506394 url("../img/facebook.png") no-repeat center!important;
+    opacity: 0.8;
+}
+ /*--------------------NAVIGATION COMPLETE---------------------------*/
+
+               
+/*---------------------------header_BANNER STARTS---------------------------*/
+
+.banner{
+    height: 600px;
+    text-align: center;
+    background-color:#6a6a6a;
+    background-image: url(../img/bb.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    //overflow: hidden; 
+}
+
+.profile_picture{
+    border:10px solid #fff;
+    margin-top:114px;
+    box-shadow: 0px 10px 35px 0px #282828;
+ }  
+
+.banner h2{
+    font-family: 'agency',arial;
+    font-size:3em;
+    color:#fff;
+    text-transform: uppercase;
+    margin-top: 50px;
+    }
+.banner p{
+    font-family:trebuchet ms;
+    font-weight: lighter;
+    font-size: 1.2em;
+    padding: 0 15%;
+    color: #fff;
+    opacity: 0.9;
+}
+/*---------------------------header_BANNER ENDS---------------------------*/
+
+
+/*---------------------------MAIN CONTENT---------------------------*/    
+.main-content{
+    padding: 100px 100px;
+}
+.main-content h3{
+    display: inline-block;
+    font-family: 'agency',arial;
+    font-size: 1.5em;
+    color:#d33891;
+    border:solid 3px #d33891;
+    padding: 10px 35px;
+    margin-bottom: 40px
+    transition:background-color 2s;
+    -webkit-transition:background-color 2s;
+    -moz-transition:background-color 2s;
+    -o-transition:background-color 2s;
+ }
+
+ .main-content h3:hover{
+    display: inline-block;
+    color:#fff;
+    background-color: #d33891;
+    border:solid 3px #d33891;
+    }
+
+
+
+.main-content h4{
+    margin-top: 0;
+    font-family: 'agency',arial;
+    font-size: 1.8em;
+    color:#474747;
+}
+
+.main-content h4 small{
+    color:#a0a0a0;
+    font-size:.65em;
+    border-left: 1px solid #a0a0a0;
+    padding-left: 7px;
+    margin-left: 7px;
+}
+.main-content .about-me p{
+    color: #a0a0a0;
+    font-size: 1em;
+}
+/*---------------------------MAIN CONTENT ENDS---------------------------*/ 
+
+
+/*BLOG*/
+
+.main-content .blog .post{
+    text-align: center;
+}
+
+.main-content .blog .post h4{
+    margin-top: 20px;
+    font-family: 'agency',arial;
+    font-size: 1.3em;
+    color:#6a6a6a;
+    text-transform: uppercase;
+}
+    
+.main-content .blog  .post p{
+    color:#a5a5a5;
+    line-height: 1.9em;
+}
+
+.main-content .contact p{
+    color:#a5a5a5;
+    line-height: 1.7em;
+}
+
+/* contact form */
+.contact .row{
+    padding-top: 20px;
+}
+
+input{
+    width: 100%;
+    color: #adacac;
+    border:3px solid #adacac;
+    margin-bottom: 20px;
+    height:50px;
+    font-family: 'agency',arial;
+    font-size: 1.5em;
+    padding-left: 20px;
+}
+input:focus{
+    border-color: #d559a8;
+    box-shadow: 0 0 5px 1px #d559a8;
+} 
+
+.massage{
+    height: 220px;
+    padding-bottom: 180px;
+}
+.send{
+    padding: 0;
+    width:200px;
+    background-color: #fff;
+}
+.info img{
+    padding-right: 6px;
+}
+
+/*    FOOTER   */
+
+footer{
+    width: 100%;
+    height: 213px;
+    color:#fff;
+    padding-top: 90px;
+    background-color: #2e2d2d;
+}
+
+footer .container .website {
+    font-family: 'agency',arial;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    opacity: 0.7;
+}
+
+footer .container .copyright{
+    font-family: trebuchet ms,arial;
+    color:#a5a3a3;
+}
+footer .container .copyright a{
+    text-decoration: none;
+    color:#d1cfcf;
+}
+
+
+
+/*less than 768*/
+@media all and (max-width:768px){
+
+    .navbar-default .navbar-nav>li>a{
+        text-align: center;
+    }
+
+    ul .facebook a{
+    width: 100%;
+    }
+    ul .twitter a{
+    width: 100%;
+    }
+  .banner h2{
+    font-size:2.2em;
+    color:#fff;
+    
+    }
+    .banner p{
+    font-size: 1em;
+    padding: 0 15%;
+     
+}
+
+
+@media all and (max-width:480px){
+
+}
+
+                
